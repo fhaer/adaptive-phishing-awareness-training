@@ -1,6 +1,6 @@
 # Adaptive Phishing Awareness Training
 
-An interactive phsihing simulation that utilizes LLMs for generating messages, adapted to specific users and environments, and for coaching users. The simulation is based on Flask and requires the setup of an LLM-API to a local LLM via <a href="https://ollama.com/">Ollama</a> or the "<a href="https://llm.datasette.io/en/stable/">llm</a>" library. By default, the qwen 2.5 7B LLM is configured via Ollama.
+An interactive phsihing simulation that utilizes LLMs for generating messages, adapted to specific users and environments, and for coaching users. The simulation is requires the setup of an LLM-API to a local LLM via <a href="https://ollama.com/">Ollama</a> or the "<a href="https://llm.datasette.io/en/stable/">llm</a>" library. By default, the qwen 2.5 7B LLM is configured via Ollama.
 
 **Example**: After flagging a phishing message as a legitimate message, the behavior of the LLM can be observed, giving feedback (1) and answering questions (2, 3).
 
@@ -10,6 +10,8 @@ An interactive phsihing simulation that utilizes LLMs for generating messages, a
 
 ---
 
+The prototype is implemented in Python 3.13 using flask, ollama, llm (optional), and openai (optional), and HTML/JS/CSS code from <a href="https://github.com/patrickloeber/chatbot-deployment">chatbot-deployment</a> project.
+ 
 ## Installation and Usage
 
 ### 1. Project Setup
