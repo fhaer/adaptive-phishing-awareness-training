@@ -6,9 +6,7 @@ An interactive phsihing simulation that utilizes LLMs for generating messages, a
 
 ![UI-2](https://raw.githubusercontent.com/fhaer/adaptive-phishing-awareness-training/main/UI-2.png)
 
-**Video:**
-
-[![Watch the video](https://raw.githubusercontent.com/fhaer/adaptive-phishing-awareness-training/main/Video.png)](https://www.youtube.com/watch?v=UUYAv6r7agY)
+<a href="https://www.youtube.com/watch?v=UUYAv6r7agY">Watch the video on YouTube</a>
 
 ---
 
