@@ -10,7 +10,7 @@ An interactive phsihing simulation that utilizes LLMs for generating messages, a
 
 ---
 
-The prototype is implemented in Python 3.13 using flask, ollama, llm (optional), and openai (optional), and HTML/JS/CSS code from <a href="https://github.com/patrickloeber/chatbot-deployment">chatbot-deployment</a> project.
+The prototype is implemented in Python 3.13 using flask, ollama, llm (optional), and openai (optional), and HTML/JS/CSS code from the <a href="https://github.com/patrickloeber/chatbot-deployment">chatbot-deployment</a> project.
  
 ## Installation and Usage
 
