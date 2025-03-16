@@ -10,7 +10,7 @@ An interactive phishing simulation that utilizes LLMs for generating messages, a
 
 ---
 
-The prototype is implemented in Python 3.13 using the modules flask, ollama, llm (optional), and openai (optional). Parts of the HTML/JS/CSS code are derived from the <a href="https://github.com/patrickloeber/chatbot-deployment">chatbot-deployment</a> project.
+The prototype is implemented in Python 3.13 using the modules flask, flask-cors, ollama, llm, and openai. Parts of the HTML/JS/CSS code are derived from the <a href="https://github.com/patrickloeber/chatbot-deployment">chatbot-deployment</a> project.
  
 ## Installation and Usage
 
