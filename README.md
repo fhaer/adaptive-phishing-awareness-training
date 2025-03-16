@@ -36,6 +36,10 @@ The prototype is implemented in Python 3.13 using the modules flask, flask-cors,
 - LLM
   - Start Ollama or configure another LLM-API in llm_api.py
   - By default, the qwen 2.5 7B LLM is set
+  - Model download:
+  ```bash
+  ollama pull qwen2.5:7b
+  ```
 - Start the application:
   ```bash
   python app.py
