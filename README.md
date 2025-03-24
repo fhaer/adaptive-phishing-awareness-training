@@ -1,6 +1,6 @@
 # Adaptive Phishing Awareness Training
 
-An interactive phishing simulation that utilizes LLMs for generating messages, adapted to specific users and environments, and for coaching users. The simulation requires the setup of an LLM-API to a local LLM via <a href="https://ollama.com/">Ollama</a> or the "<a href="https://llm.datasette.io/en/stable/">llm</a>" library. By default, the qwen 2.5 7B LLM is configured via Ollama.
+An interactive phishing simulation that utilizes LLMs for generating messages, adapted to specific users and environments, and for coaching users. The simulation requires the setup of an LLM-API to a local LLM via <a href="https://ollama.com/" target = "_blank">Ollama</a> or the "<a href="https://llm.datasette.io/en/stable/">llm</a>" library. By default, the qwen 2.5 7B LLM is configured via Ollama.
 
 **Example**: After flagging a phishing message as a legitimate message, the behavior of the LLM can be observed, giving feedback (1) and answering questions (2, 3). Qwen 2.5 7B is used in the example. A video is available <a href="https://www.youtube.com/watch?v=UUYAv6r7agY">on YouTube</a>.
 
