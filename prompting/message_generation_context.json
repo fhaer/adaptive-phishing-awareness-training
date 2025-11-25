@@ -1,0 +1,227 @@
+{
+  "environments": [
+    {
+      "e1": "Company: Evergreen Landscaping Inc., Domain: evergreenlandscaping.com, Business Area: Landscaping Services, Description: Provides comprehensive landscaping design, installation, and maintenance services for residential and commercial clients, Divisions: Design, Installation, Maintenance, Irrigation"
+    },
+    {
+      "e2": "Company: Golden Grain Foods, Domain: goldengrainfoods.com, Business Area: Food Manufacturing, Description: Produces a variety of grain-based food products, including cereals, snacks, and baked goods, Divisions: Production, Quality Assurance, Research & Development, Sales"
+    },
+    {
+      "e3": "Company: Riverside Medical Supplies, Domain: riversidemedical.com, Business Area: Medical Supplies Distribution, Description: Distributes medical equipment, devices, and supplies to hospitals, clinics, and healthcare providers, Divisions: Sales, Procurement, Logistics, Customer Service"
+    },
+    {
+      "e4": "Company: Summit Construction Group, Domain: summitconstruction.com, Business Area: Construction, Description: Specializes in commercial and residential construction projects, from small renovations to large-scale developments, Divisions: Construction Management, Design, Engineering, Sales"
+    },
+    {
+      "e5": "Company: Coastal Textiles Ltd., Domain: coastaltextiles.com, Business Area: Textile Manufacturing, Description: Manufactures a wide range of textiles for apparel, home furnishings, and industrial applications, Divisions: Production, Design, Sales, Quality Control"
+    },
+    {
+      "e6": "Company: Mountain High Outfitters, Domain: mountainhigh.com, Business Area: Retail (Outdoor Gear & Apparel), Description: Retail chain selling outdoor recreational gear, apparel, and equipment for activities like hiking, camping, and climbing, Divisions: Retail Operations, E-commerce, Purchasing, Marketing"
+    },
+    {
+      "e7": "Company: Valley Transport Solutions, Domain: valleytransport.com, Business Area: Logistics and Transportation, Description: Provides comprehensive transportation and logistics services, including freight forwarding, warehousing, and distribution, Divisions: Trucking, Warehousing, Logistics, Freight"
+    },
+    {
+      "e8": "Company: Heritage Furniture Co., Domain: heritagefurniture.com, Business Area: Furniture Manufacturing, Description: Crafts high-quality, handcrafted furniture for residential and commercial spaces, specializing in traditional designs, Divisions: Production, Design, Sales, Custom Orders"
+    },
+    {
+      "e9": "Company: Pacific Seafood Distributors, Domain: pacificseafood.com, Business Area: Seafood Distribution, Description: Distributes fresh and frozen seafood products to restaurants, retailers, and wholesalers, Divisions: Procurement, Sales, Logistics, Quality Control"
+    },
+    {
+      "e10": "Company: Sterling Financial Services, Domain: sterlingfinancial.com, Business Area: Financial Services, Description: Offers a range of financial services, including wealth management, investment advising, and retirement planning, Divisions: Wealth Management, Investment, Retirement, Planning"
+    },
+    {
+      "e11": "Company: Northern Energy Corp, Domain: northernenergy.com, Business Area: Energy Production and Distribution, Description: Engaged in the exploration, production, and distribution of natural gas and renewable energy sources, Divisions: Exploration, Production, Distribution, Renewables"
+    }
+  ],
+  "users": [
+    {
+      "u1": "Name: Robert Smith, E-Mail: robert.smith@evergreenlandscaping.com, Department: Landscape Design, Superior: Bob Williams, Organizational Role: Team Lead, Position: Senior Landscape Architect, Task Areas: Client consultation, design development, project planning, site analysis, Team: Works closely with Mary Hill and Bob Builder on design and installation projects",
+      "environment": "e1"
+    },
+    {
+      "u2": "Name: Michael Johnson, E-Mail: michael.johnson@goldengrainfoods.com, Department: Quality Assurance, Superior: Maria Lopez, Organizational Role: Supervisor, Position: Food Safety Inspector, Task Areas: Product testing, regulatory compliance, hygiene control, documentation, Colleagues: Supervises Peter Stein and Nick Cage in quality control processes",
+      "environment": "e2"
+    },
+    {
+      "u3": "Name: David Williams, E-Mail: david.williams@riversidemedical.com, Department: Sales, Superior: David Lee, Organizational Role: Representative, Position: Territory Sales Manager, Task Areas: Client acquisition, order processing, relationship management, market analysis, Tasks: Manages the sales territory and coordinates with Susan White and Derek Salesman",
+      "environment": "e3"
+    },
+    {
+      "u4": "Name: Jennifer Brown, E-Mail: jennifer.brown@summitconstruction.com, Department: Construction Management, Superior: Greta Schmidt, Organizational Role: Project Manager, Position: Site Supervisor, Task Areas: Resource allocation, scheduling, safety compliance, quality control, Team: Works with Erika Planner, Thomas Black, and Paul McCartney on construction projects",
+      "environment": "e4"
+    },
+    {
+      "u5": "Name: Linda Davis, E-Mail: linda.davis@coastaltextiles.com, Department: Production, Superior: Ian Taylor, Organizational Role: Foreman, Position: Machine Operator, Task Areas: Equipment maintenance, material handling, output monitoring, defect identification, Colleagues: Oversees Ursula Brown and Filiz Schneider on the production line",
+      "environment": "e5"
+    },
+    {
+      "u6": "Name: Christopher Wilson, E-Mail: christopher.wilson@mountainhigh.com, Department: Retail Operations, Superior: Kelly Chang, Organizational Role: Store Manager, Position: Assistant Manager, Task Areas: Inventory management, staff training, customer service, visual merchandising, Tasks: Manages the retail store and coordinates with Victor Gray and Gino Veratti",
+      "environment": "e6"
+    },
+    {
+      "u7": "Name: Barbara Garcia, E-Mail: barbara.garcia@evergreenlandscaping.com, Department: Installation, Superior: Robert Smith, Organizational Role: Crew Lead, Position: Landscape Technician, Task Areas: Planting, hardscaping, irrigation installation, site preparation, Team: Installation Team",
+      "environment": "e1"
+    },
+    {
+      "u8": "Name: Daniel Rodriguez, E-Mail: daniel.rodriguez@goldengrainfoods.com, Department: Production, Superior: Michael Johnson, Organizational Role: Line Operator, Position: Machine Technician, Task Areas: Machine operation, troubleshooting, quality checks, maintenance, Team: Operation Team",
+      "environment": "e2"
+    },
+    {
+      "u9": "Name: Maria Martinez, E-Mail: maria.martinez@riversidemedical.com, Department: Customer Service, Superior: David Williams, Organizational Role: Representative, Position: Customer Support Specialist, Task Areas: Order inquiries, complaint resolution, product information, service requests, Team: Customer Service Team",
+      "environment": "e3"
+    },
+    {
+      "u10": "Name: Anthony Anderson, E-Mail: anthony.anderson@summitconstruction.com, Department: Engineering, Superior: Jennifer Brown, Organizational Role: Engineer, Position: Civil Engineer, Task Areas: Site planning, structural design, project calculations, code compliance, Team: Engineering Team",
+      "environment": "e4"
+    },
+    {
+      "u11": "Name: Jessica Thomas, E-Mail: jessica.thomas@coastaltextiles.com, Department: Design, Superior: Linda Davis, Organizational Role: Designer, Position: Textile Designer, Task Areas: Pattern creation, color selection, fabric testing, trend analysis, Team: Design Team",
+      "environment": "e5"
+    },
+    {
+      "u12": "Name: Kevin Jackson, E-Mail: kevin.jackson@mountainhigh.com, Department: E-commerce, Superior: Christopher Wilson, Organizational Role: Analyst, Position: Web Analyst, Task Areas: Data analysis, performance reporting, user experience optimization, campaign management, Team: E-Commerce Team",
+      "environment": "e6"
+    },
+    {
+      "u13": "Name: Melissa White, E-Mail: melissa.white@valleytransport.com, Department: Trucking, Superior: Robert Clark, Organizational Role: Driver, Position: Truck Driver, Task Areas: Delivery, Transportation, Team: Trucking Team",
+      "environment": "e7"
+    },
+    {
+      "u14": "Name: Brian Harris, E-Mail: brian.harris@heritagefurniture.com, Department: Sales, Superior: Quinn Violet, Organizational Role: Representative, Position: Sales Agent, Task Areas: Customer Services, Team: Sales Team",
+      "environment": "e8"
+    },
+    {
+      "u15": "Name: Ashley Martin, E-Mail: ashley.martin@pacificseafood.com, Department: Sales, Superior: Ashley Martin, Organizational Role: Manager, Position: Sales Manager, Task Areas: Manages the sales team, Team: Sales Team",
+      "environment": "e9"
+    },
+    {
+      "u16": "Name: Charles Thompson, E-Mail: charles.thompson@sterlingfinancial.com, Department: Investment, Superior: Charles Thompson, Organizational Role: Investor, Position: Senior Investor, Task Areas: Manage investments, Team: Investment Team",
+      "environment": "e10"
+    },
+    {
+      "u17": "Name: Brittany Perez, E-Mail: brittany.perez@northernenergy.com, Department: Exploration, Superior: Eric Coal, Organizational Role: Explorer, Position: Chief Explorer, Task Areas: Exploration activities, Team: Exploration Team",
+      "environment": "e11"
+    },
+    {
+      "u18": "Name: George Hall, E-Mail: george.hall@evergreenlandscaping.com, Department: Installation, Superior: Robert Smith, Organizational Role: Foremen, Position: Site Builder, Task Areas: Construct according to blueprint, Tasks: George is the foremen for all site construction",
+      "environment": "e1"
+    },
+    {
+      "u19": "Name: Nicole Young, E-Mail: nicole.young@goldengrainfoods.com, Department: Production, Superior: Michael Johnson, Organizational Role: Manager, Position: Production Manager, Task Areas: Manages production, Tasks: Nicole manages the production team",
+      "environment": "e2"
+    },
+    {
+      "u20": "Name: James Allen, E-Mail: james.allen@riversidemedical.com, Department: Sales, Superior: David Williams, Organizational Role: Representative, Position: Sales Representative, Task Areas: Sales, Team: Sales Team",
+      "environment": "e3"
+    },
+    {
+      "u21": "Name: Stephanie King, E-Mail: stephanie.king@summitconstruction.com, Department: Construction Management, Superior: Jennifer Brown, Organizational Role: Planner, Position: Project Planner, Task Areas: Plans Projects, Team: Plans all the projects",
+      "environment": "e4"
+    },
+    {
+      "u22": "Name: Brandon Wright, E-Mail: brandon.wright@coastaltextiles.com, Department: Production, Superior: Linda Davis, Organizational Role: Operator, Position: Machine Operator, Task Areas: Operates the Machine, Tasks: Brandon operates all the machines",
+      "environment": "e5"
+    },
+    {
+      "u23": "Name: Kimberly Lopez, E-Mail: kimberly.lopez@mountainhigh.com, Department: Retail Operations, Superior: Christopher Wilson, Organizational Role: Seller, Position: Seller, Task Areas: Sells equipment, tasks: Kimberly sells all the equipment",
+      "environment": "e6"
+    },
+    {
+      "u24": "Name: Eric Hill, E-Mail: eric.hill@valleytransport.com, Department: Trucking, Superior: Robert Clark, Organizational Role: Driver, Position: Truck Driver, Task Areas: Trucking, Logistics, Colleagues: Works closely with Sabine",
+      "environment": "e7"
+    },
+    {
+      "u25": "Name: Amy Green, E-Mail: amy.green@heritagefurniture.com, Department: Sales, Superior: Quinn Violet, Organizational Role: Seller, Position: Sales Agent, Task Areas: Furniture Sales, Tasks: Amy sells furniture",
+      "environment": "e8"
+    },
+    {
+      "u26": "Name: Joseph Baker, E-Mail: joseph.baker@pacificseafood.com, Department: Sales, Superior: Ashley Martin, Organizational Role: Assistent, Position: Sales Assistent, Task Areas: Assists Sales Team, Tasks: Joseph assists all the sales team",
+      "environment": "e9"
+    },
+    {
+      "u27": "Name: Michelle Carter, E-Mail: michelle.carter@sterlingfinancial.com, Department: Investment, Superior: Charles Thompson, Organizational Role: Controller, Position: Investment Controller, Task Areas: Investment Control, Tasks: Michelle controls investments",
+      "environment": "e10"
+    },
+    {
+      "u28": "Name: Timothy Mitchell, E-Mail: timothy.mitchell@northernenergy.com, Department: Exploration, Superior: Brittany Perez, Organizational Role: Geologist, Position: Field Geologist, Task Areas: Geologic exploration, Tasks: Timothy explores all the geology",
+      "environment": "e11"
+    },
+    {
+      "u29": "Name: Angela Roberts, E-Mail: angela.roberts@evergreenlandscaping.com, Department: Design, Superior: Robert Smith, Organizational Role: Draftsperson, Position: Junior Designer, Task Areas: Assists in Design, works with Alice",
+      "environment": "e1"
+    },
+    {
+      "u30": "Name: Larry Turner, E-Mail: larry.turner@goldengrainfoods.com, Department: Quality Assurance, Superior: Michael Johnson, Organizational Role: Controller, Position: Quality Controller, Task Areas: Controls quality, tasks: Larry controls the quality",
+      "environment": "e2"
+    },
+    {
+      "u31": "Name: Theresa Phillips, E-Mail: theresa.phillips@riversidemedical.com, Department: Customer Service, Superior: David Williams, Organizational Role: Assistent, Position: Service Assistent, Task Areas: Customer support, Team: Customer service",
+      "environment": "e3"
+    },
+    {
+      "u32": "Name: Scott Campbell, E-Mail: scott.campbell@summitconstruction.com, Department: Engineering, Superior: Jennifer Brown, Organizational Role: Engineer, Position: Project Engineer, Task Areas: Plans, Team: Engineer team",
+      "environment": "e4"
+    },
+    {
+      "u33": "Name: Crystal Parker, E-Mail: crystal.parker@coastaltextiles.com, Department: Design, Superior: Linda Davis, Organizational Role: Designer, Position: Senior Designer, Task Areas: Designs, Team: Design Team",
+      "environment": "e5"
+    },
+    {
+      "u34": "Name: Sean Evans, E-Mail: sean.evans@mountainhigh.com, Department: E-commerce, Superior: Christopher Wilson, Organizational Role: Webdesigner, Position: Webdesigner, Task Areas: Designs website, Tasks: Sean designs the website",
+      "environment": "e6"
+    },
+    {
+      "u35": "Name: Monica Edwards, E-Mail: monica.edwards@valleytransport.com, Department: Trucking, Superior: Robert Clark, Organizational Role: Driver, Position: Truck Driver, Task Areas: Drives the Truck, Colleagues: Works closely with Belladonna",
+      "environment": "e7"
+    },
+    {
+      "u36": "Name: Dennis Collins, E-Mail: dennis.collins@heritagefurniture.com, Department: Production, Superior: Quinn Violet, Organizational Role: Woodworker, Position: Woodworker, Task Areas: Works with wood, tasks: Dennis works with wood",
+      "environment": "e8"
+    },
+    {
+      "u37": "Name: Isabel Stewart, E-Mail: isabel.stewart@pacificseafood.com, Department: Logistics, Superior: Ashley Martin, Organizational Role: Logistician, Position: Logistician, Task Areas: Plans logistics, Team: Logistic Team",
+      "environment": "e9"
+    },
+    {
+      "u38": "Name: Ricardo Flores, E-Mail: ricardo.flores@sterlingfinancial.com, Department: Wealth Management, Superior: Charles Thompson, Organizational Role: Assistent, Position: Wealth Management Assistent, Task Areas: assists at Wealth Management, Tasks: Ricardo assists at wealth management",
+      "environment": "e10"
+    },
+    {
+      "u39": "Name: Heather Gray, E-Mail: heather.gray@northernenergy.com, Department: Renewables, Superior: Brittany Perez, Organizational Role: Engineer, Position: Engineer, Task Areas: Designs renewable infrastructure, Tasks: Heather designs renewable infrastructures",
+      "environment": "e11"
+    },
+    {
+      "u40": "Name: Glen Hughes, E-Mail: glen.hughes@evergreenlandscaping.com, Department: Maintenance, Superior: Robert Smith, Organizational Role: Gardener, Position: Gardener, Task Areas: Gardening, Tasks: Glen is the gardener",
+      "environment": "e1"
+    },
+    {
+      "u41": "Name: April Ross, E-Mail: april.ross@goldengrainfoods.com, Department: Research & Development, Superior: Michael Johnson, Organizational Role: Researcher, Position: Food Researcher, Task Areas: Researches foods, Tasks: April researches food",
+      "environment": "e2"
+    },
+    {
+      "u42": "Name: John Torres, E-Mail: john.torres@riversidemedical.com, Department: Procurement, Superior: David Williams, Organizational Role: Procurement Manager, Position: Procurement Manager, Task Areas: Procures, Tasks: John procures",
+      "environment": "e3"
+    },
+    {
+      "u43": "Name: Judy Sanders, E-Mail: judy.sanders@summitconstruction.com, Department: Construction Management, Superior: Jennifer Brown, Organizational Role: Manager, Position: Site Manager, Task Areas: Manages Sites, Tasks: Judy manages site",
+      "environment": "e4"
+    },
+    {
+      "u44": "Name: Patrick Powell, E-Mail: patrick.powell@coastaltextiles.com, Department: Quality Control, Superior: Linda Davis, Organizational Role: Controller, Position: Quality Controller, Task Areas: Controls Quality, Team: All the machines",
+      "environment": "e5"
+    },
+    {
+      "u45": "Name: Kathy Long, E-Mail: kathy.long@mountainhigh.com, Department: Purchasing, Superior: Christopher Wilson, Organizational Role: Purchaser, Position: Purchaser, Task Areas: Purchases, Tasks: Kathy purchases",
+      "environment": "e6"
+    },
+    {
+      "u46": "Name: Xanthe Schneider, E-Mail: xanthe.schneider@valleytransport.com, Department: Logistics, Superior: Robert Clark, Organizational Role: Logistician, Position: Logistician, Task Areas: Plans Logistics, Team: Logistic team",
+      "environment": "e7"
+    },
+        {
+      "u47": "Name: Alois Brandstätter, E-Mail: alois.brandstaetter@northernenergy.com, Department: Exploration, Superior: Brittany Perez, Organizational Role: Explorer, Position: Field Explorer, Task Areas: Explores for energy, Team: Exploration Team",
+      "environment": "e11"
+    }
+  ]
+}

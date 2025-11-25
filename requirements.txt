@@ -1,0 +1,5 @@
+openai==0.28
+llm
+ollama
+flask
+flask-cors

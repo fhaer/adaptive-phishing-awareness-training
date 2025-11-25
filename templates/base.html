@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Awareness Training</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='icon-fav.png') }}">
+</head>
+
+<body>
+
+    <h1 style="text-align: center;"><small>Inbox</small></h1>
+
+    <div class="container">
+
+        <!-- Email Interface -->
+        <div class="email-interface">
+
+            <!-- Left Pane: Email List -->
+            <div class="email-list">
+                {% for email in emails %}
+                <div class="email-item" <div class="email-item" id="inbox-entry-m-{{ loop.index }}"
+                    onclick="showEmail('email-{{ loop.index }}')">>
+                    <h3>{{ email.subject }}</h3>
+                    <p>From: {{ email.sender }}</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Right Pane: Email Content -->
+            <div class="email-content">
+                {% for email in emails %}
+                <div id="email-{{ loop.index }}" class="email-detail" style="display: none;">
+                    <h3>{{ email.subject }}</h3>
+                    <h4>Sender: {{ email.sender }}</h4>
+                    <p>{{ email.content }}</p>
+                    <button class="btn btn-danger"
+                        onclick="chatbox.handleAction('report', 'email-{{ loop.index }}')">Flag as Phishing</button>
+                    <button class="btn btn-success"
+                        onclick="chatbox.handleAction('allow', 'email-{{ loop.index }}')">Flag as Legitimate</button>
+                </div>
+                {% endfor %}
+
+                <!-- Generating message -->
+                <div id="generating" style="text-align: center; margin: 20px;">
+                    <h1><small>Phishing Awareness Training Environment</small></h1>
+                    <br>
+                    <br>
+                    <h2>Messages are being generated</h2>
+                    <br>
+                    <p>One moment please.</p>
+                </div>
+
+                <!-- Instructions -->
+                <div id="starting" style="display:none; text-align: center; margin: 20px;">
+                    <h1><small>Phishing Awareness Training Environment</small></h1>
+                    <br>
+                    <br>
+                    <h2>E-Mail Simulation</h2>
+                    <p>
+                        In this simulation, your role is to carefully review incoming emails and flag potential phishing
+                        attempts. A coach will be present to support you in recognizing phishing signs and tactics, and
+                        to provide feedback or answer questions. For getting started, consider the e-mails on the
+                        left-hand side that might be:
+                    </p>
+                    <ul style="text-align: left; display: inline-block;">
+                        <li><strong>Legitimate Business Emails:</strong> Communications related to our
+                            operations.
+                        </li>
+                        <li><strong>Personal Emails:</strong> Non-work related messages.</li>
+                        <li><strong>Phishing Threats:</strong> Suspicious emails that should be reported.
+                        </li>
+                    </ul>
+                    <p>
+                        <br>
+                        <br>
+                        <strong>How to proceed:</strong>
+                    <p>
+                        Start a conversation with the Coach by clicking on the chat icon below or directly select a
+                        message on the left.
+                    </p>
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- Chatbot -->
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                    </div>
+                    <div class="chatbox__messages">
+                        <div></div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <input type="text" placeholder="Write a message...">
+                        <button class="chatbox__send--footer send__button">Send</button>
+                    </div>
+                </div>
+                <div class="chatbox__button">
+
+                    <button><img src="{{ url_for('static', filename='icon-chat.png') }}" height="45pt"
+                            width="45pt" /></button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // JS inserted by the template engine
+            $SCRIPT_ROOT = {{ request.script_root | tojson }};
+        </script>
+        
+        <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+
+</html>

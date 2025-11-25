@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Important Update: New HR Policy Available",
+    "sender": "HR (hr@company.com)",
+    "content": "<p>Dear Employee,</p><p>We are pleased to inform you that our HR policies have been updated to reflect recent changes in regulations. Please review the updated document to familiarize yourself with the new guidelines.</p><p>You can access the updated policy here:<br><a href=\"https://hr.company.com/policies-update.pdf\">https://hr.company.com/policies-update.pdf</a>.</p><p>If you have any questions, please contact the HR Department at hr@company.com or call +41 76 123 45 67.</p><p>Thank you for your attention to this matter.</p><p>Regards,</p><p>HR Team<br>Company",
+    "is_phishing": false,
+    "analysis": "The email comes from an official sender address (hr@company.com), includes a secure HTTPS link, and provides clear contact details. These are indicators of legitimacy. Verifying the sender's domain and checking for secure links can help confirm the authenticity of similar emails."
+  },
+  {
+    "subject": "Unauthorized Login Attempt Detected – Immediate Action Required",
+    "sender": "IT Support (suport@company-secure.com)",
+    "content": "<p>Dear User,</p><p>We have detected unauthorized login attempts on your account from an unknown device. To protect your information, we have temporarily locked your account.</p><p>To restore access, please click the link below and reset your password:<br><a href=\"http://reset.company-login.com/security-update/\">http://reset.company-login.com/security-update/</a></p><p>Failure to act within 24 hours may result in permanent suspension of your account.</p><p>Regards,</p><p>IT Support Team<br>Company",
+    "is_phishing": true,
+    "analysis": "The email comes from a fake sender address ('suport@company-secure.com'), includes an insecure link without HTTPS, and uses an impersonal greeting. It creates urgency by threatening account suspension and relies on fear tactics to pressure recipients. Verifying sender details and checking link security can help identify such emails."
+  },
+  {
+    "subject": "Action Required: Secure Your Spot at the Annual Marketing Conference",
+    "sender": "Marketing Team (marketing@comp4ny.com)",
+    "content": "<p>Dear Customer,</p><p>We are pleased to invite you to the Companyname Annual Marketing Conference.</p><p>To confirm your attendance, you must verify your information by clicking the link below: <br><a href=\"http://secure.comp4ny-login.com/confirm/322\">http://secure.comp4ny-login.com/confirm/322</a></p><p>Failure to confirm by December 10th will result in your registration being canceled.</p><p>We look forward to your participation.</p><p>Sincerely,</p><p>Marketing Representative<br>Company",
+    "is_phishing": true,
+    "analysis": "The email uses a fake sender address ('comp4ny.com'), a link without HTTPS, and a generic greeting to create urgency. These elements are commonly used to mislead recipients. Verifying the sender's domain and checking link security can help identify such emails."
+  },
+  {
+    "subject": "Important: Account Verification Required for Security Reasons",
+    "sender": "IT Security (security@company.com)",
+    "content": "<p>Dear Name, As part of our ongoing efforts to ensure the security of your account, we periodically verify account activities.</p><p>Please verify your account by clicking the secure link below:<br><a href=\"https://security.company.com/verify-account\">https://security.company.com/verify-account</a></p><p>If you have any questions or concerns, feel free to contact our support team at security@company.com or call us at +41 76 123 45 67.</p><p>Thank you for your cooperation.</p><p>Best regards,</p><p>Security Team<br>Company",
+    "is_phishing": false,
+    "analysis": "The email comes from an official sender address (security@company.com), includes a secure HTTPS link, and provides clear contact details. These are indicators of legitimacy. Verifying the sender's domain and checking for secure links can help confirm the authenticity of similar emails."
+  },
+  {
+    "subject": "Congratulations! You’ve Won a $500 Gift Card",
+    "sender": "Christina Fernandez (christina.fernandez@giftcards.com)",
+    "content": "<p>Hi,</p><p>You are one of our lucky winners!</p><p>Claim your $500 gift card now by clicking the link below:<br><a href=\"http://vsggfgdfgdfsf.com\">http://vsggfgdfgdfsf.com</a></p><p>Don't miss this one-time opportunity!</p><p>Best regards,</p><p>Christina Fernandez<br>Company",
+    "is_phishing": true,
+    "analysis": "The email comes from a suspicious sender address (christina.fernandez@giftcards.com), includes an insecure link without HTTPS, and creates urgency to pressure recipients into acting quickly. It may also contain spelling errors or incorrect branding details. Verifying the sender’s address and checking link security can help identify such emails."
+  },
+  {
+    "subject": "Unusual Activity Detected in Your Account",
+    "sender": "Security and Operations (security@company.com)",
+    "content": "<p>Dear Name,</p><p>As part of our regular monitoring, we have noticed unusual activity in your account. For your safety, we recommend reviewing your recent transaction history.</p><p>You can securely access your transaction history using the link below:<br><a href=\"https://bank.company.com/transaction-history\">https://bank.company.com/transaction-history</a></p><p>If you have any questions or concerns, please contact our support team at security@company.com or call us directly at +41 76 123 45 67.</p><p>Thank you for your cooperation</p><p>Bank Security<br>Company",
+    "is_phishing": false,
+    "analysis": "The email comes from an official sender address (security@company.com), includes a secure HTTPS link, and provides clear contact details. These are indicators of legitimacy. Verifying the sender's domain and checking for secure links can help confirm the authenticity of similar emails."
+  },
+  {
+    "subject": "Win Exciting Prizes! Complete Our Survey Today",
+    "sender": "Survey (survey@comany.com)",
+    "content": "<p>Hello,</p><p>Your opinion matters to us! Complete our quick survey and stand a chance to win exciting prizes worth $1000.</p><p>Click the link below to get started:<br><a href=\"http://redcomp4ny-survey.com/start\">http://redcomp4ny-survey.com/start</a></p><p>Best regards,</p><p>Survey Team<br>Company",
+    "is_phishing": true,
+    "analysis": "The email comes from a suspicious sender address (survey@comany.com), offers an exaggerated reward for minimal effort, and creates urgency to pressure recipients into acting quickly. Verifying the sender’s address and being cautious with emails promising unrealistic rewards can help identify such emails."
+  },
+  {
+    "subject": "Unauthorized Transaction Alert – Immediate Action Required",
+    "sender": "company@500.com (transaktion@company.com)",
+    "content": "<p>Dear Customer,</p><p>An unauthorized transaction of $500 was made from your account.</p><p>To ensure the security of your funds, please review and dispute this charge immediately by clicking the link below:<br><a href=\"http://secure.comp4ny.com/dispute-transaction\">http://secure.comp4ny.com/dispute-transaction</a></p><p>Failure to respond within 24 hours may result in the charge being finalized</p><p>Thank you for your cooperation</p><p>Security Team<br>Company",
+    "is_phishing": true,
+    "analysis": "The email comes from a suspicious sender address (company@500.com), includes an insecure link without HTTPS, and creates urgency by threatening account suspension due to a suspicious transaction. It also lacks a personalized greeting and proper closure. Verifying the sender’s details and ensuring links are secure can help identify such emails."
+  },
+  {
+    "subject": "Update: Unusual Login Attempt Detected",
+    "sender": "IT Security (security@company.com)",
+    "content": "<p>Dear Name,</p><p>We noticed an unusual login attempt on your account from an unrecognized device. To ensure your account's security, we recommend reviewing the login details.</p><p>You can securely access your account activity using the link:<br><a href=\"https://bank.company.com/account-security\">https://bank.company.com/account-security</a></p><p>If you did not initiate this action, please contact our support team immediately at security@company.com or call us directly at +41 76 123 45 67.</p><p>Thank you for your cooperation.</p><p>Best regards,</p><p>Security Support<br>Company",
+    "is_phishing": false,
+    "analysis": "The email comes from an official sender address (security@company.com), includes a secure HTTPS link, and provides clear contact details. These are indicators of legitimacy. Verifying the sender's domain and checking for secure links can help confirm the authenticity of similar emails."
+  },
+  {
+    "subject": "Exclusive Offer: Upgrade to Premium Account Benefits Today",
+    "sender": "Head of Marketing (premium-upgrade@solutions.com)",
+    "content": "<p>Hi,</p><p>We are excited to offer you an exclusive upgrade to our premium account services! Get access to:</p><p>- Higher transaction limits<br>- Personalized support<br>- Bonus rewards</p><p>To activate your premium benefits, please access the upgrade using the link below to:<br><a href=\"http://167.687.147/upgrade.ps1\">Upgrade</a></p><p>Don’t miss this limited-time opportunity to elevate your banking experience. his offer expires in 48 hours !!</p><p>Head of Marketing<br>Company",
+    "is_phishing": true,
+    "analysis": "The email comes from a suspicious sender address (premium-upgrade@solutions.com), contains multiple spelling errors, and includes a suspicious download link composed entirely of numbers (167.687.147). It also promises unrealistic rewards and may contain an executable file, which could be harmful. Verifying the sender's details and avoiding untrusted download links can help identify such emails."
+  }
+]
