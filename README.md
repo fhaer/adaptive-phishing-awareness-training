@@ -60,8 +60,6 @@ The inbox of a message environment appears with a welcome page. It contains inst
 
 In response to user choices and the correct or incorrect flagging of messages, the coach explains why the flagging might be correct or incorrect, points out phishing tactics of the message that are relevant and could have been recognized, and answers questions about phishing tactics in the message and in general. Prompts are constructed from the prompt templates ```prompting/prompt_templates.json``` with additional context such as the message and data from ```prompting/message_generation_context.json```.
 
----
-
 ## Project Structure
 
 ```
